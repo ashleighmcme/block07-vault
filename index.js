@@ -18,5 +18,3 @@ function alert(unlocked);
           alert("ChosenOne");
         }
         </script>
-
-
