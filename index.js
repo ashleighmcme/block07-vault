@@ -13,6 +13,10 @@ let thirdNum=(30+9);
 let unlocked=(`${firstNum}` + ` ` + `${secondNum}` + ` ` + `${thirdNum}`)
 console.log (unlocked);
 function alert(unlocked);
-
+<script>
+        function chosenOne() {
+          alert("ChosenOne");
+        }
+        </script>
 
 
