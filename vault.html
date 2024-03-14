@@ -4,12 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Unlock the Vault</title>
+    <link rel="stylesheet" type= "text/css" href="styles.css">
   </head>
   <body>
     <h1>Unlock the Vault!!</h1> 
     <p id="chosenOne"></p>
+    <p id="alertMessage">This is a custom alert!</p>
     <script src="./index.js"></script>
     <!--<button onclick="chosenOne()">What's This</button>-->
-    
+    <div id="customAlert" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="alertMessage">This is a custom alert!</p>
+      </div>
+    </div>
   </body>
 </html>
